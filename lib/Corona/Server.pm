@@ -97,6 +97,7 @@ sub _write_response {
             $offset += $sent if $sent > 0;
             last if $offset >= $length;
         }
+        $res->[2]->close;
     } else {
         Plack::Util::foreach($res->[2], sub { $fh->syswrite(join '', @_) });
     }

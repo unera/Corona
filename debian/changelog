@@ -1,0 +1,5 @@
+libcorona-perl (0.1004-1) unstable; urgency=low
+
+  * Init debian release.
+
+ -- Dmitry E. Oboukhov <unera@debian.org>  Mon, 28 May 2012 23:18:30 +0400

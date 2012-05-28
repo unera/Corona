@@ -1,0 +1,22 @@
+Source: libcorona-perl
+Section: perl
+Homepage: http://search.cpan.org/dist/Corona/
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Build-Depends: debhelper (>= 7), cdbs,
+ libmodule-install-perl,
+ libcoro-perl,
+ libanyevent-perl,
+ libplack-perl
+Standards-Version: 3.9.2
+Priority: extra
+
+Package: libcorona-perl
+Depends: ${perl:Depends}, ${misc:Depends}, ${shlibs:Depends},
+ libcoro-perl,
+ libanyevent-perl,
+ libplack-perl
+Architecture: any
+Description: Coro based PSGI web server
+ Corona is a Coro based Plack web server. It uses Net::Server::Coro
+ under the hood, which means we have coroutines (threads) for each
+ socket, active connections and a main loop.
