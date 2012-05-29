@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 7), cdbs,
  libmodule-install-perl,
  libcoro-perl,
  libanyevent-perl,
+ libnet-server-coro-perl,
  libplack-perl
 Standards-Version: 3.9.2
 Priority: extra
@@ -14,6 +15,7 @@ Package: libcorona-perl
 Depends: ${perl:Depends}, ${misc:Depends}, ${shlibs:Depends},
  libcoro-perl,
  libanyevent-perl,
+ libnet-server-coro-perl,
  libplack-perl
 Architecture: any
 Description: Coro based PSGI web server
