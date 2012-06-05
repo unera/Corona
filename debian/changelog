@@ -1,9 +1,16 @@
+libcorona-perl (0.1004-3) unstable; urgency=low
+
+  * FTBFS (closes: #676049): add libnet-server-perl into B-D list.
+
+ -- Dmitry E. Oboukhov <unera@debian.org>  Tue, 05 Jun 2012 10:59:40 +0400
+
 libcorona-perl (0.1004-2) unstable; urgency=low
 
   * Add libev-perl to B-D/D, closes: #675524,
     thanks to Aaron M. Ucko <ucko@debian.org> for bugreport.
+  * -
 
- -- Dmitry E. Oboukhov <unera@debian.org>  Sat, 02 Jun 2012 10:15:45 +0400
+ -- Dmitry E. Oboukhov <unera@debian.org>  Tue, 05 Jun 2012 10:59:38 +0400
 
 libcorona-perl (0.1004-1) unstable; urgency=low
 
